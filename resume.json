@@ -28,7 +28,6 @@
   "work": [
     {
       "highlights": [
-        "Maintained existing server infrastructure",
         "Set up and deployed enterprise-grade servers and networking equipment ",
         "Migrated services from older to newer hardware and made available using Nomad"
       ],
@@ -41,8 +40,7 @@
     {
       "highlights": [
         "On the team responsible for automated testing on company-built networking equipment",
-        "Developed a CLI tool to assist in debugging test failures",
-        "Helped other developers with issues relating to the internal testing infra"
+        "Developed a CLI tool to assist in debugging test failures"
       ],
       "company": "Arista Networks",
       "position": "Software Intern",
