@@ -1,0 +1,142 @@
+{
+  "selectedTemplate": 7,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Awards",
+    "education": "Education",
+    "work": "Experience"
+  },
+  "basics": {
+    "name": "Conor Joyce",
+    "email": "conor.joyce27@mail.dcu.ie",
+    "phone": "+353 85 777 0411",
+    "location": {
+      "address": "Dublin, Ireland"
+    }
+  },
+  "education": [
+    {
+      "institution": "Dublin City University",
+      "area": "Computer Applications and Software Engineering",
+      "studyType": "BSc",
+      "startDate": "Sept 2019",
+      "endDate": "June 2023",
+      "gpa": "First Class Honours"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Maintained existing server infrastructure",
+        "Set up and deployed enterprise-grade servers and networking equipment ",
+        "Migrated services from older to newer hardware and made available using Nomad"
+      ],
+      "company": "Redbrick",
+      "position": "SysAdmin",
+      "location": "DCU",
+      "startDate": "March 2022",
+      "endDate": "March 2023"
+    },
+    {
+      "highlights": [
+        "On the team responsible for automated testing on company-built networking equipment",
+        "Developed a CLI tool to assist in debugging test failures",
+        "Helped other developers with issues relating to the internal testing infra"
+      ],
+      "company": "Arista Networks",
+      "position": "Software Intern",
+      "location": "Dublin",
+      "startDate": "March 2022",
+      "endDate": "Sept 2022"
+    },
+    {
+      "highlights": [
+        "First point of contact for technical and service-related help for the society",
+        "Ran weekly workshops teaching first-years about many programming concepts and tools"
+      ],
+      "company": "Redbrick",
+      "position": "Helpdesk",
+      "location": "DCU",
+      "startDate": "March 2021",
+      "endDate": "March 2022"
+    },
+    {
+      "company": "Arista Networks",
+      "location": "Dublin",
+      "position": "Software Intern",
+      "website": "",
+      "startDate": "June 2021",
+      "endDate": "Sept 2021",
+      "highlights": [
+        "Set up, wrote tests for and deployed a new contract testing framework for microservices"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Go",
+        "JavaScript",
+        "C",
+        "Java"
+      ]
+    },
+    {
+      "keywords": [
+        "Git",
+        "Linux",
+        "Docker",
+        "Nomad",
+        "Ansible",
+        "Kubernetes",
+        "Jenkins"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PlusVasis",
+      "description": "Web platform for container management and deployment",
+      "url": "https://app.plusvasis.xyz",
+      "keywords": [
+        "Go",
+        "Svelte",
+        "Nomad",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Sonic",
+      "description": "COVID contact tracing using NFC cards",
+      "url": "https://cawnj.dev/posts/third-year-project/",
+      "keywords": [
+        "Go",
+        "Python",
+        "Docker"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "date": "May 2023",
+      "awarder": "SAP Ireland",
+      "title": "Patrick Stewart Award",
+      "summary": "Awarded to myself and my project partner for our FYP \"PlusVasis\""
+    },
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
