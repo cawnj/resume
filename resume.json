@@ -73,7 +73,7 @@
   ],
   "skills": [
     {
-      "name": "Programming Languages",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "Python",
@@ -123,14 +123,12 @@
     {
       "date": "May 2023",
       "awarder": "SAP Ireland",
-      "title": "Patrick Stewart Innovation Award",
-      "summary": "Awarded to myself and my project partner for our final year project"
+      "title": "Patrick Stewart Innovation Award"
     },
     {
       "date": "July 2023",
       "awarder": "Dublin City University",
-      "title": "Tony Moynihan Award",
-      "summary": "Awarded for highest overall marks in the final year project"
+      "title": "Tony Moynihan Award"
     }
   ],
   "sections": [
