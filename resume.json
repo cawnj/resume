@@ -123,10 +123,15 @@
     {
       "date": "May 2023",
       "awarder": "SAP Ireland",
-      "title": "Patrick Stewart Award",
-      "summary": "Awarded to myself and my project partner for our final year project \"PlusVasis\""
+      "title": "Patrick Stewart Innovation Award",
+      "summary": "Awarded to myself and my project partner for our final year project"
     },
-    {}
+    {
+      "date": "July 2023",
+      "awarder": "Dublin City University",
+      "title": "Tony Moynihan Award",
+      "summary": "Awarded for highest overall marks in the final year project"
+    }
   ],
   "sections": [
     "templates",
