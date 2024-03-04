@@ -115,20 +115,21 @@
       "keywords": [
         "Go",
         "Python",
-        "Docker"
+        "Docker",
+        "Raspberry Pi"
       ]
     }
   ],
   "awards": [
     {
-      "date": "May 2023",
-      "awarder": "SAP Ireland",
-      "title": "Patrick Stewart Innovation Award"
+      "date": "June 2023",
+      "title": "Tony Moynihan Award",
+      "awarder": "Dublin City University"
     },
     {
-      "date": "July 2023",
-      "awarder": "Dublin City University",
-      "title": "Tony Moynihan Award"
+      "date": " May 2023",
+      "awarder": "SAP Ireland",
+      "title": "Patrick Stewart Innovation Award"
     }
   ],
   "sections": [
