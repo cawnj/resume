@@ -3,11 +3,14 @@
     "jsonresume-theme-even": "^0.23.0",
     "resumed": "^6.0.0"
   },
+  "devDependencies": {
+    "wrangler": "^4.28.1"
+  },
   "scripts": {
     "build": "cd ../ && mkdir -p ./deploy/dist && resumed --theme jsonresume-theme-even --output ./deploy/dist/index.html",
     "predev": "pnpm run build",
-    "dev": "pnpm dlx wrangler dev",
+    "dev": "wrangler dev",
     "predeploy": "pnpm run build",
-    "deploy": "pnpm dlx wrangler deploy"
+    "deploy": "wrangler deploy"
   }
 }
