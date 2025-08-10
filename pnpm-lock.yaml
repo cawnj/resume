@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      jsonresume-theme-even:
+        specifier: ^0.23.0
+        version: 0.23.0
       resumed:
         specifier: ^6.0.0
         version: 6.0.0
@@ -18,12 +21,68 @@ packages:
     resolution: {integrity: sha512-kcst3WFNz+ACZnazWSHgI8hiooSuBH/j+TdduJ6LqMEoE+Kni1wDbrINkAzTR72D+gc1GEG4I/HRTqoa5dMJiA==}
     engines: {node: '>=20'}
 
+  '@rbardini/html@1.0.1':
+    resolution: {integrity: sha512-sVnvDG2ujW5R0mfubZDCnxnxHSsM1kS4ExY+Z3j7XQkY4Y7RKnM4tPi6E8OkkUmbD3NUeVWV2ObSmgaaZUHIDw==}
+    engines: {node: '>=20'}
+
+  character-entities-legacy@1.1.4:
+    resolution: {integrity: sha512-3Xnr+7ZFS1uxeiUDvV02wQ+QDbc55o97tIV5zHScSPJpcLm/r0DFPcoY3tYRp+VZukxuMeKgXYmsXQHO05zQeA==}
+
+  character-entities@1.2.4:
+    resolution: {integrity: sha512-iBMyeEHxfVnIakwOuDXpVkc54HijNgCyQB2w0VfGQThle6NXn50zU6V/u+LDhxHcDUPojn6Kpga3PTAD8W1bQw==}
+
+  character-reference-invalid@1.1.4:
+    resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
+
+  classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
+
+  core-js@3.45.0:
+    resolution: {integrity: sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==}
+
+  debug@4.4.1:
+    resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  feather-icons@4.29.2:
+    resolution: {integrity: sha512-0TaCFTnBTVCz6U+baY2UJNKne5ifGh7sMG4ZC2LoBWCZdIyPa+y6UiR4lEYGws1JOFWdee8KAsAIvu0VcXqiqA==}
+
+  is-alphabetical@1.0.4:
+    resolution: {integrity: sha512-DwzsA04LQ10FHTZuL0/grVDk4rFoVH1pjAToYwBrHSxcrBIGQuXrQMtD5U1b0U2XVgKZCTLLP8u2Qxqhy3l2Vg==}
+
+  is-alphanumerical@1.0.4:
+    resolution: {integrity: sha512-UzoZUr+XfVz3t3v4KyGEniVL9BDRoQtY7tOyrRybkVNjDFWyo1yhXNGrrBTQxp3ib9BLAWs7k2YKBQsFRkZG9A==}
+
+  is-decimal@1.0.4:
+    resolution: {integrity: sha512-RGdriMmQQvZ2aqaQq3awNA6dCGtKpiDFcOzrTWrDAT2MiWrKQVPmxLGHl7Y2nNu6led0kEyoX0enY0qXYsv9zw==}
+
+  is-hexadecimal@1.0.4:
+    resolution: {integrity: sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==}
+
+  jsonresume-theme-even@0.23.0:
+    resolution: {integrity: sha512-LHPtEhxtJsjSqdgHotdO5++XWyVkefibk7ISd94qxXRa0U4c5YeZZUFhpw7DNH2g2uitmi2Pj2B0ydz/swaEyg==}
+    hasBin: true
+
   jsonschema@1.5.0:
     resolution: {integrity: sha512-K+A9hhqbn0f3pJX17Q/7H6yQfD/5OXgdrR5UE12gMXCiN9D5Xq2o5mddV2QEcX/bjla99ASsAAQUyMCCRWAEhw==}
+
+  micromark@2.11.4:
+    resolution: {integrity: sha512-+WoovN/ppKolQOFIAajxi7Lu9kInbPxFuTBVEavFcL8eAfVstoc5MocPmqBeAdBOJV00uaVjegzH4+MA0DN/uA==}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
+
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
+  parse-entities@2.0.0:
+    resolution: {integrity: sha512-kkywGpCcRYhqQIchaWqZ875wzpS/bMKhz5HnN3p7wveJTkTtyAB/AlnS0f8DFSqYW1T82t6yEAkEcB+A1I3MbQ==}
 
   resumed@6.0.0:
     resolution: {integrity: sha512-Flyyl5f87vuHs7lbwEPHQy+1kKZhEcdghdRWieuXSVFRmpNKCtwGDXBP1wtARrya44wV3tHODpFx3x7xis0/JA==}
@@ -43,15 +102,77 @@ packages:
     resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
     engines: {node: '>=14.16'}
 
+  striptags@3.2.0:
+    resolution: {integrity: sha512-g45ZOGzHDMe2bdYMdIvdAfCQkCTDMGBazSw1ypMowwGIee7ZQ5dU0rBJ8Jqgl+jAKIv4dbeE1jscZq9wid1Tkw==}
+
 snapshots:
 
   '@jsonresume/schema@1.2.1':
     dependencies:
       jsonschema: 1.5.0
 
+  '@rbardini/html@1.0.1': {}
+
+  character-entities-legacy@1.1.4: {}
+
+  character-entities@1.2.4: {}
+
+  character-reference-invalid@1.1.4: {}
+
+  classnames@2.5.1: {}
+
+  core-js@3.45.0: {}
+
+  debug@4.4.1:
+    dependencies:
+      ms: 2.1.3
+
+  feather-icons@4.29.2:
+    dependencies:
+      classnames: 2.5.1
+      core-js: 3.45.0
+
+  is-alphabetical@1.0.4: {}
+
+  is-alphanumerical@1.0.4:
+    dependencies:
+      is-alphabetical: 1.0.4
+      is-decimal: 1.0.4
+
+  is-decimal@1.0.4: {}
+
+  is-hexadecimal@1.0.4: {}
+
+  jsonresume-theme-even@0.23.0:
+    dependencies:
+      '@rbardini/html': 1.0.1
+      feather-icons: 4.29.2
+      micromark: 2.11.4
+      striptags: 3.2.0
+    transitivePeerDependencies:
+      - supports-color
+
   jsonschema@1.5.0: {}
 
+  micromark@2.11.4:
+    dependencies:
+      debug: 4.4.1
+      parse-entities: 2.0.0
+    transitivePeerDependencies:
+      - supports-color
+
   mri@1.2.0: {}
+
+  ms@2.1.3: {}
+
+  parse-entities@2.0.0:
+    dependencies:
+      character-entities: 1.2.4
+      character-entities-legacy: 1.1.4
+      character-reference-invalid: 1.1.4
+      is-alphanumerical: 1.0.4
+      is-decimal: 1.0.4
+      is-hexadecimal: 1.0.4
 
   resumed@6.0.0:
     dependencies:
@@ -64,3 +185,5 @@ snapshots:
       mri: 1.2.0
 
   strip-json-comments@5.0.3: {}
+
+  striptags@3.2.0: {}
