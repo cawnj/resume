@@ -1,6 +1,16 @@
 {
-	"dependencies": {
-		"jsonresume-theme-even": "^0.23.0",
-		"resumed": "^6.0.0"
-	}
+  "dependencies": {
+    "jsonresume-theme-even": "^0.23.0",
+    "resumed": "^6.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.28.1"
+  },
+  "scripts": {
+	"build": "mkdir -p dist && resumed --theme jsonresume-theme-even --output dist/index.html",
+	"predev": "npm run build",
+	"dev": "wrangler dev",
+	"predeploy": "npm run build",
+    "deploy": "wrangler deploy"
+  }
 }
