@@ -3,6 +3,7 @@
   "basics": {
     "name": "Conor Joyce",
     "label": "DevOps Engineer",
+    "image": "https://avatars.githubusercontent.com/u/57002528?v=4",
     "email": "conor@cawnj.dev",
     "url": "https://cawnj.dev",
     "location": {
@@ -41,8 +42,32 @@
       "highlights": []
     },
     {
-      "name": "Redbrick",
+      "name": "Arista Networks",
       "location": "Dublin, IE",
+      "position": "Software Intern",
+      "startDate": "2022-03",
+      "endDate": "2022-09",
+      "summary": "",
+      "highlights": [
+        "On the team responsible for automated testing on company-built networking equipment",
+        "Developed a CLI tool to assist in debugging test failures"
+      ]
+    },
+    {
+      "name": "Arista Networks",
+      "location": "Dublin, IE",
+      "position": "Software Intern",
+      "startDate": "2021-06",
+      "endDate": "2021-09",
+      "summary": "",
+      "highlights": [
+        "Set up, wrote tests for and deployed a new contract testing framework for microservices"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Redbrick",
       "position": "SysAdmin",
       "startDate": "2022-03",
       "endDate": "2023-03",
@@ -53,20 +78,7 @@
       ]
     },
     {
-      "name": "Arista Networks",
-      "location": "Dublin, IE",
-      "position": "Software Engineering Intern",
-      "startDate": "2022-03",
-      "endDate": "2022-09",
-      "summary": "",
-      "highlights": [
-        "On the team responsible for automated testing on company-built networking equipment",
-        "Developed a CLI tool to assist in debugging test failures"
-      ]
-    },
-    {
-      "name": "Redbrick",
-      "location": "Dublin, IE",
+      "organization": "Redbrick",
       "position": "Helpdesk",
       "startDate": "2021-03",
       "endDate": "2022-03",
@@ -74,17 +86,6 @@
       "highlights": [
         "First point of contact for technical and service-related help for the society",
         "Ran weekly workshops teaching first-years about many programming concepts and tools"
-      ]
-    },
-    {
-      "name": "Arista Networks",
-      "location": "Dublin, IE",
-      "position": "Software Engineering Intern",
-      "startDate": "2021-06",
-      "endDate": "2021-09",
-      "summary": "",
-      "highlights": [
-        "Set up, wrote tests for and deployed a new contract testing framework for microservices"
       ]
     }
   ],
@@ -102,26 +103,28 @@
     {
       "title": "The Tony Moynihan Award",
       "date": "2023-06",
-      "awarder": "Dublin City University"
+      "awarder": "Dublin City University",
+      "summary": "Received for the highest overall marks in the CA400 Final Year Project module"
     },
     {
       "title": "The Patrick Stewart Innovation Award",
       "date": "2023-05",
-      "awarder": "SAP Ireland"
+      "awarder": "SAP Ireland",
+      "summary": "Received for demonstrating technical excellence and driving innovation by starting conversations in our Final Year Project"
     }
   ],
   "projects": [
     {
       "name": "PlusVasis",
-      "description": "Online platform for container management and orchestration",
-      "startDate": "2022-10",
+      "description": "Final Year Project, which was a platform to streamline container management and orchestration for developers",
+      "startDate": "2022-09",
       "endDate": "2023-03"
     },
     {
       "name": "Sonic",
-      "description": "NFC-based COVID contact tracing system",
+      "description": "Third Year Project, which was an NFC-based COVID contact tracing system",
       "startDate": "2022-01",
-      "endDate": "2022-03"
+      "endDate": "2022-04"
     }
   ],
   "meta": {
