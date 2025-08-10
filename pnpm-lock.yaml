@@ -1,0 +1,66 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      resumed:
+        specifier: ^6.0.0
+        version: 6.0.0
+
+packages:
+
+  '@jsonresume/schema@1.2.1':
+    resolution: {integrity: sha512-kcst3WFNz+ACZnazWSHgI8hiooSuBH/j+TdduJ6LqMEoE+Kni1wDbrINkAzTR72D+gc1GEG4I/HRTqoa5dMJiA==}
+    engines: {node: '>=20'}
+
+  jsonschema@1.5.0:
+    resolution: {integrity: sha512-K+A9hhqbn0f3pJX17Q/7H6yQfD/5OXgdrR5UE12gMXCiN9D5Xq2o5mddV2QEcX/bjla99ASsAAQUyMCCRWAEhw==}
+
+  mri@1.2.0:
+    resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
+    engines: {node: '>=4'}
+
+  resumed@6.0.0:
+    resolution: {integrity: sha512-Flyyl5f87vuHs7lbwEPHQy+1kKZhEcdghdRWieuXSVFRmpNKCtwGDXBP1wtARrya44wV3tHODpFx3x7xis0/JA==}
+    engines: {node: ^20.12 || >=21.7}
+    hasBin: true
+    peerDependencies:
+      puppeteer: ^24.0.0
+    peerDependenciesMeta:
+      puppeteer:
+        optional: true
+
+  sade@1.8.1:
+    resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
+    engines: {node: '>=6'}
+
+  strip-json-comments@5.0.3:
+    resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
+    engines: {node: '>=14.16'}
+
+snapshots:
+
+  '@jsonresume/schema@1.2.1':
+    dependencies:
+      jsonschema: 1.5.0
+
+  jsonschema@1.5.0: {}
+
+  mri@1.2.0: {}
+
+  resumed@6.0.0:
+    dependencies:
+      '@jsonresume/schema': 1.2.1
+      sade: 1.8.1
+      strip-json-comments: 5.0.3
+
+  sade@1.8.1:
+    dependencies:
+      mri: 1.2.0
+
+  strip-json-comments@5.0.3: {}
